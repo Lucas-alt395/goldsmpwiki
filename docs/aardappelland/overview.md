@@ -1,6 +1,6 @@
 # Aardappelland 🥔
 
-Welkom bij de pagina van **Aardappelland**. 
+**Aardappelland** is een land bedacht door lucasbed/.LucasBED00 en is de opvolger van Lucasland in **Beste Wereld**. 
 
 ## Links
 
