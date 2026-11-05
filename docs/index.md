@@ -1,8 +1,10 @@
-# Welcome to the Server Wiki 🌍
+# Welcome to GoldSMP Wiki 🏆
 
-This is the official documentation, history, and guide hub for our geopolitical Minecraft server. 
+The official central archives for **GoldSMP**. Explore nation histories, town borders, server laws, and transit networks.
 
-## Quick Links
-- [Server Rules](/guides/rules)
-- [Nation History](/lore/history)
-- [Transit & Railways](/guides/transit)
+## Nations of GoldSMP
+- **[Aardappelland](/aardappelland/overview)** – Home of Lucasstad, heart of agriculture and regional rail connections.
+- **[Ravenburg](/ravenburg/overview)** – Historical stronghold, military power, and trade hub.
+
+## Important Resources
+- **[GoldSMP Rules](/rules)** – Essential guidelines on land claims, warfare, and griefing.
