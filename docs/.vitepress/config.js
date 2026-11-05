@@ -1,33 +1,41 @@
 export default {
-  title: 'Server Wiki',
-  description: 'Official lore and guides for our geopolitical server',
+  title: 'GoldSMP Wiki',
+  description: 'Official lore, geopolitics, and guides for GoldSMP',
   themeConfig: {
+    siteTitle: 'GoldSMP Wiki',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Lore', link: '/lore/history' },
-      { text: 'Rules', link: '/guides/rules' }
+      { text: 'Aardappelland', link: '/aardappelland/overview' },
+      { text: 'Ravenburg', link: '/ravenburg/overview' }
     ],
     sidebar: [
       {
-        text: 'Overview',
+        text: '🏆 GoldSMP',
         items: [
-          { text: 'Welcome', link: '/' },
-          { text: 'Rules', link: '/guides/rules' }
+          { text: 'Welcome to GoldSMP', link: '/' },
+          { text: 'Server Rules', link: '/rules' }
         ]
       },
       {
-        text: 'World & Lore',
+        text: '🥔 Aardappelland',
         items: [
-          { text: 'History', link: '/lore/history' },
-          { text: 'Towns (Lucasstad & Traade)', link: '/lore/towns' }
+          { text: 'Overview & Towns', link: '/aardappelland/overview' },
+          { text: 'Lucasstad History', link: '/aardappelland/lucasstad' },
+          { text: 'Infrastructure & Transit', link: '/aardappelland/transit' }
         ]
       },
       {
-        text: 'Infrastructure',
+        text: '🦅 Ravenburg',
         items: [
-          { text: 'Train & Boat Transit', link: '/guides/transit' }
+          { text: 'Overview & Towns', link: '/ravenburg/overview' },
+          { text: 'History & Lore', link: '/ravenburg/history' },
+          { text: 'Infrastructure & Transit', link: '/ravenburg/transit' }
         ]
       }
-    ]
+    ],
+    footer: {
+      message: 'Official documentation for the GoldSMP geopolitical server.',
+      copyright: 'Copyright © GoldSMP'
+    }
   }
 }
