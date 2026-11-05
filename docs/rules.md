@@ -1,13 +1,12 @@
-# GoldSMP Server Rules 📜
+# GoldSMP Server Regels
 
-Welcome to GoldSMP! To ensure a fair and enjoyable geopolitical experience, all players must abide by these rules.
+De GoldSMP heeft een paar serverwijde regels.
 
-## 1. Land & Claims
-- Respect official town claim boundaries. Griefing or stealing inside claimed areas is strictly prohibited.
-- Boundary markers and public transit infrastructure (rails, boat channels) must remain unobstructed.
+## 1. Landen
+- Claim niet territory als je weet dat iemand anders dat al heeft maar nog niet heeft geclaimd.
 
-## 2. Warfare & Geopolitics
-- Conflicts between nations like **Aardappelland** and **Ravenburg** must follow formal declaration procedures outlined by server admins.
+## 2. Oorlogen
+- Oorlogen moeten worden gehouden zoals staat in **Oorlogen Regels (pagina bestaat nog niet)**
 
-## 3. General Conduct
-- Play fair, respect other players, and keep all town lore accurate in the wiki!
+## 3. Andere regels
+- Voor de rest worden regels bepaald door de landen.
