@@ -13,7 +13,7 @@ export default {
         text: '🏆 GoldSMP',
         items: [
           { text: 'GoldSMP', link: '/' },
-          { text: 'Server regels', link: '/rules' }
+          { text: 'Server regels', link: '/rules' },
           { text: 'Regels bij Oorlogen', link: '/warrules' }
         ]
       },
@@ -21,7 +21,7 @@ export default {
         text: '🥔 Aardappelland',
         items: [
           { text: 'Overview', link: '/aardappelland/overview' },
-          { text: 'Geschiedenis', link: '/aardappelland/history'}
+          { text: 'Geschiedenis', link: '/aardappelland/history'},
           { text: 'Lucasstad', link: '/aardappelland/lucasstad' },
           { text: 'Train Network', link: '/aardappelland/trainnetwork' }
         ]
