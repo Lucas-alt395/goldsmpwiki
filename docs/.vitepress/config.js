@@ -12,24 +12,26 @@ export default {
       {
         text: '🏆 GoldSMP',
         items: [
-          { text: 'Welcome to GoldSMP', link: '/' },
-          { text: 'Server Rules', link: '/rules' }
+          { text: 'GoldSMP', link: '/' },
+          { text: 'Server regels', link: '/rules' }
+          { text: 'Regels bij Oorlogen', link: '/warrules' }
         ]
       },
       {
         text: '🥔 Aardappelland',
         items: [
-          { text: 'Overview & Towns', link: '/aardappelland/overview' },
-          { text: 'Lucasstad History', link: '/aardappelland/lucasstad' },
-          { text: 'Infrastructure & Transit', link: '/aardappelland/transit' }
+          { text: 'Overview', link: '/aardappelland/overview' },
+          { text: 'Geschiedenis', link: '/aardappelland/history'}
+          { text: 'Lucasstad', link: '/aardappelland/lucasstad' },
+          { text: 'Train Network', link: '/aardappelland/trainnetwork' }
         ]
       },
       {
         text: '🦅 Ravenburg',
         items: [
-          { text: 'Overview & Towns', link: '/ravenburg/overview' },
-          { text: 'History & Lore', link: '/ravenburg/history' },
-          { text: 'Infrastructure & Transit', link: '/ravenburg/transit' }
+          { text: 'Overview', link: '/ravenburg/overview' },
+          { text: 'Geschiedenis & Lore', link: '/ravenburg/history' },
+          { text: 'Trein netwerk', link: '/ravenburg/trainnetwork' }
         ]
       }
     ],
