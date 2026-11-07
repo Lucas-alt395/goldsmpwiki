@@ -84,7 +84,7 @@ onMounted(() => {
 <p><strong>Time:</strong> {{ dock.from }} - {{ dock.to }} {{ dock.timezone }}</p>
 </div>
 <div v-else class="dock-details">
-<p>Rate: </a href="https://goldsmpwiki.vercel.app/aardappelland/haven_rate" ><i>Klik hier voor de rate in aardappelland.</i></a></p>
+<p>Rate: Zie https://goldsmpwiki.vercel.app/aardappelland/haven_rate voor de rate in Aardappelland</p>
 </div>
 </div>
 </div>
