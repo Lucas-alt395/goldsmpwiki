@@ -2,6 +2,9 @@ export default {
   title: 'GoldSMP Wiki',
   description: 'Official lore, geopolitics, and guides for GoldSMP',
   themeConfig: {
+    search: {
+        provider: "local"
+    },
     siteTitle: 'GoldSMP Wiki',
     nav: [
       { text: 'Home', link: '/' },
