@@ -68,64 +68,62 @@ onMounted(() => {
 </script>
 
 <div class="dock-container">
-  <h2>Live Dock Status</h2>
 
-  <div v-if="loading" class="loading-state">Loading harbor data...</div>
+<h2>Live Dock Status</h2>
 
-  <div v-else class="dock-grid">
-    <div 
-      v-for="dock in docks" 
-      :key="dock.id" 
-      class="dock-card"
-      :class="{ 'is-reserved': dock.reserved }"
-    >
-      <h3>{{ dock.name }}</h3>
-      <span class="badge" :class="dock.reserved ? 'badge-red' : 'badge-green'">
-        {{ dock.reserved ? 'RESERVED' : 'AVAILABLE' }}
-      </span>
-      <div v-if="dock.reserved" class="dock-details">
-        <p><strong>Owner:</strong> {{ dock.by }}</p>
-        <p><strong>Time:</strong> {{ dock.from }} - {{ dock.to }} {{ dock.timezone }}</p>
-      </div>
-      <div v-else class="dock-details">
-        <p>Rate: 64 Gold / hr</p>
-      </div>
-    </div>
-  </div>
+<div v-if="loading" class="loading-state">Loading harbor data...</div>
 
-  <hr />
+<div v-else class="dock-grid">
+<div v-for="dock in docks" :key="dock.id" class="dock-card" :class="{ 'is-reserved': dock.reserved }">
+<h3>{{ dock.name }}</h3>
+<span class="badge" :class="dock.reserved ? 'badge-red' : 'badge-green'">
+{{ dock.reserved ? 'RESERVED' : 'AVAILABLE' }}
+</span>
+<div v-if="dock.reserved" class="dock-details">
+<p><strong>Owner:</strong> {{ dock.by }}</p>
+<p><strong>Time:</strong> {{ dock.from }} - {{ dock.to }} {{ dock.timezone }}</p>
+</div>
+<div v-else class="dock-details">
+<p>Rate: 64 Gold / hr</p>
+</div>
+</div>
+</div>
 
-  <h2>Reserve a Slot</h2>
-  <div class="reservation-form">
-    <label>
-      Select Dock:
-      <select v-model="selectedDock">
-        <option v-for="dock in docks" :key="dock.id" :value="dock.id">
-          {{ dock.name }} ({{ dock.reserved ? 'Occupied' : 'Open' }})
-        </option>
-      </select>
-    </label>
+<hr />
 
-    <label>
-      Player / Nation Name:
-      <input type="text" v-model="playerName" placeholder="e.g. Ravenburg" />
-    </label>
+<h2>Reserve a Slot</h2>
 
-    <div class="time-inputs">
-      <label>
-        From:
-        <input type="text" v-model="fromTime" placeholder="10:00" />
-      </label>
-      <label>
-        To:
-        <input type="text" v-model="toTime" placeholder="12:00" />
-      </label>
-    </div>
+<div class="reservation-form">
+<label>
+Select Dock:
+<select v-model="selectedDock">
+<option v-for="dock in docks" :key="dock.id" :value="dock.id">
+{{ dock.name }} ({{ dock.reserved ? 'Occupied' : 'Open' }})
+</option>
+</select>
+</label>
 
-    <button @click="handleReserve" class="reserve-btn">Confirm Reservation</button>
+<label>
+Player / Nation Name:
+<input type="text" v-model="playerName" placeholder="e.g. Ravenburg" />
+</label>
 
-    <p v-if="statusMessage" class="status-msg">{{ statusMessage }}</p>
-  </div>
+<div class="time-inputs">
+<label>
+From:
+<input type="text" v-model="fromTime" placeholder="10:00" />
+</label>
+<label>
+To:
+<input type="text" v-model="toTime" placeholder="12:00" />
+</label>
+</div>
+
+<button @click="handleReserve" class="reserve-btn">Confirm Reservation</button>
+
+<p v-if="statusMessage" class="status-msg">{{ statusMessage }}</p>
+</div>
+
 </div>
 
 <style scoped>
