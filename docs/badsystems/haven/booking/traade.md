@@ -69,7 +69,7 @@ onMounted(() => {
 
 <div class="dock-container">
 
-<h2>Live Dock Status</h2>
+<h2>Live status</h2>
 
 <div v-if="loading" class="loading-state">Loading harbor data...</div>
 
@@ -80,7 +80,7 @@ onMounted(() => {
 {{ dock.reserved ? 'GERESERVEERD' : 'VRIJ' }}
 </span>
 <div v-if="dock.reserved" class="dock-details">
-<p><strong>Gereserveerd door::</strong> {{ dock.by }}</p>
+<p><strong>Gereserveerd door:</strong> {{ dock.by }}</p>
 <p><strong>Tijd:</strong> {{ dock.from }} - {{ dock.to }} {{ dock.timezone }}</p>
 </div>
 <div v-else class="dock-details">
