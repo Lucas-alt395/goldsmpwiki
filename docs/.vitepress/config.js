@@ -26,7 +26,16 @@ export default {
           { text: 'Overview', link: '/aardappelland/overview' },
           { text: 'Geschiedenis', link: '/aardappelland/history'},
           { text: 'Lucasstad', link: '/aardappelland/lucasstad' },
-          { text: 'Train Network', link: '/aardappelland/trainnetwork' }
+          { text: 'Train Network', link: '/aardappelland/trainnetwork' },
+          {
+            text: '⚖️ Wetten',
+            collapsed: false,
+            items: [
+              { text: 'Overview', link: '/aardappelland/wetten/overview' },
+              { text: 'Grondwet', link: '/aardappelland/wetten/grondwet' },
+              { text: 'Handelswetten', link: '/aardappelland/wetten/handelswetten' }
+            ]
+          }
         ]
       },
       {
