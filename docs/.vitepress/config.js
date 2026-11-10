@@ -33,7 +33,7 @@ export default {
             items: [
               { text: 'Overview', link: '/aardappelland/wetten/overview' },
               { text: 'Grondwet', link: '/aardappelland/wetten/grondwet' },
-              { text: 'Handelswetten', link: '/aardappelland/wetten/handelswetten' }
+              { text: 'Handelswet', link: '/aardappelland/wetten/handelswet' }
             ]
           }
         ]
